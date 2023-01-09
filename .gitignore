@@ -1,3 +1,7 @@
+result_summaries_0210/
+results/
+data
+tensorboard_1309/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

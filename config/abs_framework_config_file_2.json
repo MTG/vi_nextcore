@@ -1,0 +1,23 @@
+{
+	"main_params": {
+		"train_path": "data/combined_tr_crema_noHop.json",
+		"test_path": "data/combined_val_crema_noHop.json",
+		"lr": 0.01,
+		"weight_decay": 0,
+		"momentum": 0,
+		"lr_decay": 1,
+		"lrsch": 3,
+		"factor": 0.3,
+		"patience": 10,
+		"threshold": 0.1,
+		"cooldown": 10,
+		"min_lr": 1e-06,
+		"batch_size": 20,
+		"num_of_epochs": 100,
+		"early_s_pat": 0,
+		"save_summary": 1,
+		"save_model": 0,
+		"seed": 42,
+		"shortname": "abs_framework"
+	}
+}
